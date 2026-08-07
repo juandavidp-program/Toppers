@@ -6,19 +6,84 @@
      <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
      <meta name="author" content="Programador - JuanDavidP, diseñador - Leonardo pineda.">
      <link rel="icon" href="topperslogo.png" type="image/png">
+     <script src="https://kit.fontawesome.com/6ee99af0a5.js" crossorigin="anonymous"></script>
      <style>
-       body{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
-       background-color: #1165b0;
-       overflow-x: hidden;
-       font-family: "anton";
+      body{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         background-color: #0c487d;
+         overflow-x: hidden;
+         font-family: "anton";
          }
+
+       .contenedor{
+         background-color: white;
+         border-radius: 50px;
+         width:85vw;
+         height: 200px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 100px;
+         flex-direction: row;
+       }
+
+       .facebook{
+         width: 100%;
+         height: 100%;
+         background-color: #0058c1;
+         border-radius: 20px 0px 0px 20px;
+       }
+
+       .tiktok{
+         width: 100%;
+         height: 100%;
+         background-color: black;
+       }
+
+       .instagram{
+         width: 100%;
+         height: 100%;
+         background-color: #c13400ff;
+       }
+
+       .whatsapp{
+         width: 100%;
+         height: 100%;
+         background-color: #118300ff;
+         border-radius: 0px 20px 20px 0px;
+       }
+
+       .face{
+         color: white;
+         font-size: 30px;
+       }
+
+       .tik{
+         color: white;
+         font-size: 30px;
+       }
+
+       .inst{
+         color: white;
+         font-size: 30px;
+       }
+
+       .wha{
+         font-size: 30px;
+         color: black;
+       }
      </style>
    </head>
    <body>
      <h1>ENCUENTRANOS EN:</h1>
+     <div class="contenedor">
+       <a href="https://www.facebook.com/topperr01" class="facebook"><i class="fa-brands fa-facebook-f face"></i></a>
+       <a href="https://www.tiktok.com/@toppers_yogurt?_r=1&_t=ZS-98h4PkpPchh" class="tiktok"><i class="fa-brands fa-tiktok tik"></i></a>
+       <a href="https://www.instagram.com/toppers_yogurt?igsh=M2V1YnUzMTV0OXF2" class="instagram"><i class="fa-brands fa-instagram inst"></i></a>
+       <a href="https://wa.me/573013962845?text=Hola,%20quiero%20mas%20informacion%20sobre%20los%20yogures." class="whatsapp"><i class="fa-brands fa-whatsapp wha"></i></a>
+     </div>
    </body>
  </html>

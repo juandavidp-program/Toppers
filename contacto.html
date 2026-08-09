@@ -159,5 +159,15 @@
        <h6>TOPPERS YOGURT©™ Todos los derechos recervados</h6>
        <h6>Programador: JuanDavidp</h6>            <h6>Diseñador: Leonardo pineda</h6>
      </footer>
+     <script>
+       var links = document.querySelector(".facebook.tiktok.instagram.whatsapp");
+
+       links.addEventListener("click", function(event) {
+         event.preventDefault();
+
+         setTimeout(() => {
+           window.location.href = contacto.html},3000)
+       })
+     </script>
    </body>
  </html>

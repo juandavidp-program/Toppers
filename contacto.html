@@ -169,7 +169,7 @@
        var link4 = document.querySelector(".whatsapp");
 
        link1.addEventListener("click", function(event) {
-         event.preventDefault();
+         setTimeout(() => {event.preventDefault();}, 1000);
        });
 
        link2.addEventListener("click", function(event) {

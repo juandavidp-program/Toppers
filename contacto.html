@@ -160,14 +160,45 @@
        <h6>Programador: JuanDavidp</h6>            <h6>Diseñador: Leonardo pineda</h6>
      </footer>
      <script>
-       var links = document.querySelector(".facebook.tiktok.instagram.whatsapp");
+       var link1 = document.querySelector(".facebook");
+       
+       var link2 = document.querySelector(".tiktok");
+       
+       var link3 = document.querySelector(".instagram");
+       
+       var link4 = document.querySelector(".whatsapp");
 
-       links.addEventListener("click", function(event) {
+       link1.addEventListener("click", function(event) {
          event.preventDefault();
 
          setTimeout(() => {
-           window.location.href = contacto.html},3000);
+           window.location.href = "https://www.facebook.com/topperr01";
+         },1000);
        });
+
+       link2.addEventListener("click", function(event) {
+         event.preventDefault();
+
+         setTimeout(() => {
+           window.location.href = "https://www.tiktok.com/@toppers_yogurt?_r=1&_t=ZS-98h4PkpPchh";
+         },1000);
+       });
+
+      link3.addEventListener("click", function(event) {
+         event.preventDefault();
+
+         setTimeout(() => {
+           window.location.href = "https://www.instagram.com/toppers_yogurt?igsh=M2V1YnUzMTV0OXF2";
+         },1000);
+       });
+
+     link4.addEventListener("click", function(event) {
+       event.preventDefault();
+
+       setTimeout(() => {
+         window.location.href = "https://wa.me/573013962845?text=Hola,%20quiero%20mas%20informacion%20sobre%20los%20yogures.";
+       },1000)
+     })
      </script>
    </body>
  </html>
